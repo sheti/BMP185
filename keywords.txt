@@ -1,0 +1,6 @@
+BMP185	KEYWORD1
+init	KEYWORD2
+getPressure	KEYWORD2
+getTemperature	KEYWORD2
+setOversamplig	KEYWORD2
+temperature	KEYWORD2
