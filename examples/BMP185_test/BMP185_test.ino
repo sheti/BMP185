@@ -7,6 +7,7 @@ byte oss = 0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  Serial.println(F("BMP185 test"));
   Wire.begin();
   delay(1000);
   dps.init();

@@ -39,7 +39,8 @@ long BMP185::getPressure() {
 			break;
 		case 3:
 			write8(BMP185_CTRL_MEAS, 0xF4);
-			delayMicroseconds(21000);
+			delayMicroseconds(16383);
+			delayMicroseconds(4617);
 			break;
 	}
 	byte _sco = 0x20;
